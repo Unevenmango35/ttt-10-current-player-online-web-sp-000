@@ -1,6 +1,7 @@
 def turn_count(board)
   counter = 0
-if my_condition_is_met
+if board.each do |count|
+  count = "X" || "O"
   counter += 1
 end
 end
